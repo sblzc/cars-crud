@@ -1,0 +1,16 @@
+name: Cars CRUD Tests
+# TODO: add the pull_request event filtered to the main branch
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      # TODO: checkout the repository
+      # TODO: set up Python 3.12
+      # TODO: install requirements-dev.txt
+      # TODO: install Chromium and its Linux dependencies
+      # TODO: run unit tests
+      # TODO: run integration tests
+      # TODO: run API tests
+      # TODO: run E2E tests
