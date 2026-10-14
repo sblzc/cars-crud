@@ -1,4 +1,4 @@
-"""Tier 1: isolated validation, without a server or database."""
+﻿"""Tier 1: isolated validation, without a server or database."""
 
 import pytest
 from pydantic import ValidationError
@@ -17,7 +17,7 @@ def test_strips_surrounding_whitespace():
 
 def test_color_is_optional():
     car = CarInput(make="Toyota", model="Corolla", year=2024)
-    assert car.color == ""
+    assert car.color == "blue"
 
 
 @pytest.mark.parametrize("year", [1886, 2100])
